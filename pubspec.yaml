@@ -5,17 +5,17 @@ homepage: https://github.com/quochuynh67/flutter_video_newfeed
 
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
 
-  video_player: ^2.1.6
-  lottie: ^1.0.1
-  marquee: ^2.2.0
-  visibility_detector:
+  video_player: ^2.4.7
+  lottie: ^1.4.3
+  marquee: ^2.2.3
+  visibility_detector: ^0.3.3
 
 
 dev_dependencies:

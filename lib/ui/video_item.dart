@@ -190,12 +190,14 @@ class _VideoItemWidgetState<V extends VideoInfo>
             onVisibilityChanged: _handleVisibilityDetector,
             key: Key('key_${widget.currentPageIndex}'),
             child: VideoPlayer(_videoPlayerController!)),
-        maxHeight: screenRatio > previewRatio
+        /*maxHeight: screenRatio > previewRatio
             ? screenH
             : screenW / previewW * previewH,
         maxWidth: screenRatio > previewRatio
             ? screenH / previewH * previewW
-            : screenW,
+            : screenW,*/
+        maxHeight: screenH,
+        maxWidth: screenW,
       ),
     );
   }
